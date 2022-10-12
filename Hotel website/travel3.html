@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Details</title>
+    <link rel="stylesheet" href="styleIt.css" >
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body >
+    <nav class="navBar-white" id="navBar">
+        <a href="/travel.html">
+            <img src="https://cdn-icons-png.flaticon.com/128/2200/2200326.png" class="logo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Popular Places</a></li>
+            <li><a href="#">Travel Outside</a></li>
+            <li><a href="trevel2.html">Online Packages</a></li>
+
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fas fa-bars" oneclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>245 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: San Francisco, California, United States</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsFw4zSEd5cWiN1gDsETtNfamTk2pR5ptVPA&usqp=CAU"></div>
+            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaKojAo2RSs7NnMtfYve96m1QMQS9ZlTAHQ&usqp=CAU"></div>
+            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxiNd4izyCGQwXoPjH6A28DZplzX4OUrON1A&usqp=CAU"></div>
+            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwwlkd919s6BwLEID-dF0TFmdm0UszLfxAQQ&usqp=CAU"></div>
+            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlkAuH4FX54c7sw3iUOTubanMwCg6miyIDYQ&usqp=CAU"></div>
+            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh4OMW9yHtLi9W_eCV1Syw_-pOHkO-JGortQ&usqp=CAU"></div>
+            
+        </div>
+        <div class="small-details">
+            <h2>
+                Entire Rental unit hosted by Brandon
+            </h2>
+            <P>2 guest &nbsp; &nbsp; 2 beds &nbsp; &nbsp; 1 bathroom</P>
+            <h4>$ 100 / day</h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label>
+                    Check-in
+                </label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div>
+                <label>
+                    Check-out
+                </label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div>
+                <label class="guest-field">
+                    Guest
+                </label>
+                <input type="text" placeholder="2 guests">
+            </div>
+            <button type=" submit">Check Availabity</button>
+        </form>
+
+        <ul class="details-list">
+            <li><i class="fas fa-home"></i>Entire home 
+                <span>You will have the entire flat for you.</span>
+            </li>
+            <li><i class="fas fa-paint-brush"></i>Enhanced Clean 
+                <span>This host has committed to cleaning process</span>
+            </li>
+            <li><i class="fas fa-map-marker-alt"></i>Great Location
+                <span>90% of gurst gave the location a 5-star rating</span>
+            </li>
+            <li><i class="fas fa-heart"></i>Guest Checking Experience 
+                <span>100%  of recent guests gave a check-in process a 5-star rating.</span>
+            </li>
+        </ul>
+        <hr class="home-disc">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis magni voluptatibus magnam dignissimos facilis dolor animi quae porro obcaecati aperiam, mollitia itaque sapiente ipsam ducimus exercitationem quos. Accusantium id sit minima tempora est officiis corporis expedita impedit ipsa repellendus tempore delectus, quaerat explicabo aspernatur sunt molestiae eos animi nulla laboriosam laudantium voluptate quae soluta. Suscipit, cum?</p>
+        <hr class="line">
+
+        <div class="map">
+            <h3>Location on map</h3>
+            <iframe src="https://goo.gl/maps/ZQJxKtDjwyMb3EJp6" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <b> San Francisco , California, United States</b>
+            <P>It's like a home away from home</P>
+        </div>
+        <hr class="line">
+        <div class="host">
+            <img src="">
+            <div>
+                <h2>
+                    Hosted by Alice
+                </h2>
+                <P><span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </span>&nbsp; &nbsp; 245 reviews &nbsp; Respone rate 100% &nbsp; &nbsp; Response time 60 mins</P>
+            </div>
+        </div>
+        <a href="#" class="contact-host">Contact Host</a>
+        
+    </div> 
+    <script>
+        var navBar= document.getElementById("navBar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+
+        }
+    </script>
+</body>
+</html>
